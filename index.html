@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="A4MP TECH RIDE — explore ideas, create faster, and build with AI.">
+  <title>A4MP TECH RIDE — Build Beyond Limits</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="A4MP TECH RIDE home">
+      <span class="brand-mark">A</span><span>A4MP <b>TECH RIDE</b></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">Features</a><a href="#workspace">AI Workspace</a><a href="#about">About</a>
+    </nav>
+    <a class="nav-cta" href="#workspace">Launch workspace <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> YOUR NEXT-GEN AI WORKSPACE</div>
+        <h1>Turn bold ideas<br>into <span class="gradient-text">real impact.</span></h1>
+        <p class="hero-lead">A smarter space to explore ideas, solve problems and move your work forward — powered by AI.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#workspace">Explore AI workspace <span>→</span></a>
+          <a class="text-btn" href="#features">Discover platform <span>↓</span></a>
+        </div>
+        <div class="hero-proof"><div class="avatar-stack"><i>A</i><i>4</i><i>M</i></div><span>Built for curious minds and ambitious builders.</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core-card">
+          <div class="core-top"><span class="tiny-dot"></span> A4MP INTELLIGENCE <span class="live-tag">LIVE UI</span></div>
+          <div class="core-symbol">✳</div>
+          <div class="core-title">Think bigger.<br><span>Build smarter.</span></div>
+          <div class="core-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="core-foot"><span>AI POWERED WORKSPACE</span><span>01 / 04</span></div>
+        </div>
+        <div class="float-chip chip-top">✦ <span>Ideas → Action</span></div>
+        <div class="float-chip chip-bottom"><span class="chip-icon">⌘</span><span>One space. More possibilities.</span></div>
+      </div>
+    </section>
+
+    <section class="ticker"><div>THINK <b>•</b> CREATE <b>•</b> BUILD <b>•</b> INNOVATE <b>•</b> REPEAT <b>•</b> THINK <b>•</b> CREATE <b>•</b> BUILD <b>•</b> INNOVATE</div></section>
+
+    <section class="section features-section" id="features">
+      <div class="section-heading"><div><div class="eyebrow">THE PLATFORM</div><h2>Tools for your <span class="gradient-text">next move.</span></h2></div><p>Designed to make complex work feel simple. Start with one idea and see where it takes you.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card featured"><div class="feature-icon violet">✳</div><div class="feature-kicker">01 / THINK</div><h3>AI Conversations</h3><p>Ask questions, explore concepts and turn uncertainty into clear next steps.</p><span class="card-arrow">↗</span></article>
+        <article class="feature-card"><div class="feature-icon blue">⌘</div><div class="feature-kicker">02 / CREATE</div><h3>Creative workflow</h3><p>Shape rough thoughts into structured plans, drafts and useful outcomes.</p><span class="card-arrow">↗</span></article>
+        <article class="feature-card"><div class="feature-icon green">⌁</div><div class="feature-kicker">03 / BUILD</div><h3>Builder mindset</h3><p>Get practical guidance for learning, planning and developing your projects.</p><span class="card-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="workspace-section" id="workspace">
+      <div class="workspace-intro"><div class="eyebrow"><span class="pulse"></span> A4MP AI WORKSPACE</div><h2>Your ideas deserve<br><span class="gradient-text">a bigger engine.</span></h2><p>Start a conversation with A4MP AI. Ask for an explanation, a plan, a coding idea or a fresh perspective.</p><div class="workspace-note"><span>✦</span> Powered by Hugging Face Inference Providers</div></div>
+      <div class="chat-shell">
+        <div class="chat-header"><div class="chat-brand"><span class="mini-logo">A</span><div><b>A4MP AI</b><small><span class="status-dot"></span> Ready to assist</small></div></div><span class="model-pill">AI ASSISTANT</span></div>
+        <div class="chat-messages" id="messages" aria-live="polite">
+          <div class="message assistant"><div class="message-avatar">A</div><div class="bubble"><b>Welcome to A4MP AI.</b><br>What would you like to explore or build today?</div></div>
+        </div>
+        <div class="suggestions" id="suggestions"><button>Explain AI in simple words</button><button>Give me a startup idea</button><button>Help me build a website</button></div>
+        <form class="chat-form" id="chatForm"><textarea id="prompt" rows="1" maxlength="6000" placeholder="Message A4MP AI..." aria-label="Message A4MP AI"></textarea><button id="sendBtn" type="submit" aria-label="Send message">↑</button></form>
+        <div class="chat-disclaimer">AI can make mistakes. Verify important information.</div>
+      </div>
+    </section>
+
+    <section class="closing section" id="about"><div class="closing-mark">A4MP <span>✳</span></div><h2>Make your next idea<br><span class="gradient-text">your best one.</span></h2><a href="#workspace" class="primary-btn">Start creating <span>→</span></a></section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-mark">A</span><span>A4MP <b>TECH RIDE</b></span></a><span>© <span id="year"></span> A4MP TECH RIDE. Built for what’s next.</span><a href="#top" class="back-top">Back to top ↑</a></footer>
+  <script src="/static/script.js"></script>
+</body>
+</html>
